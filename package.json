@@ -1,8 +1,7 @@
 {
-	"name": "Phantanizer",
+	"name": "phantanizer",
 	"main": "index.html",
-	"window":
-	{
+	"window": {
 		"icon": "Editor/Files/Icon.png",
 		"frame": true,
 		"width": 1280,
@@ -11,4 +10,3 @@
 		"min_height": 600
 	}
 }
-

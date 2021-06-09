@@ -1101,7 +1101,7 @@ Interface.initialize = function() {
 	// Editor Logo
 	Interface.image = new ImageBox()
 	Interface.image.setImage("Editor/Files/Logo.png")
-	Interface.image.size.set(108, 18)
+	Interface.image.size.set(18, 18)
 	Interface.image.updateInterface()
 
 	// File

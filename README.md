@@ -14,7 +14,7 @@
 
 - The web version is tested with [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Chrome](https://www.google.com/chrome/) and [Microsoft Edge](https://www.microsoft.com/en-us/edge), mobile browsers are supported as well.
 
-<img src="https://raw.githubusercontent.com/tentone/phantasmStudio/master/source/page/src/assets/github/web.png">
+
 
 ### Getting Started
 

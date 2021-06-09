@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+	</head>
+
+	<body onload="initialize()" onresize="resize()" oncontextmenu="return false;">
+		<script type="text/javascript" src="Phantanizer.min.js"></script>
+		<script type="text/javascript">
+			var app
+
+			function initialize() {
+				app = new Runtime()
+				app.loadProgram('app.isp')
+				app.run()
+
+				if (!app.program.vr || !Runtime.webvravailable()) {
+					var button = document.getElementById('vr_button')
+					button.style.visibility = 'hidden'
+				}
+			}
+
+			function resize() {
+				app.resize()
+			}
+
+			// Fullscreen
+			function toggleFullscreen() {
+				if (Runtime.fullscreen) {
+					Runtime.setFullscreen(false)
+					app.resize()
+				} else {
+					Runtime.setFullscreen(true)
+					app.resize()
+				}
+			}
+
+			var vr = true
+			function toggleVR() {
+				if (app.vr_effect !== null) {
+					app.vr_effect.setFullScreen(vr)
+					vr = !vr
+				}
+			}
+		</script>
+		<div id="fullscreen_button" onclick="toggleFullscreen()" style="position:absolute; right:30px; bottom:30px; z-index: 1000">
+			<img style="position:absolute; cursor:pointer; opacity: 0.4;" width=25 height=25 src="fullscreen.png" onmouseenter="this.style.opacity = 0.5" onmouseleave="this.style.opacity=1.0"></img>
+		</div>
+		<div id="vr_button" onclick="toggleVR()" style="position:absolute; right:70px; bottom:30px; z-index: 1000">
+			<img style="position:absolute; cursor:pointer; opacity: 0.4;" width=25 height=25 src="vr.png" onmouseenter="this.style.opacity = 0.5" onmouseleave="this.style.opacity=1.0"></img>
+		</div>
+	</body>
+</html>

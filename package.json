@@ -1,0 +1,14 @@
+{
+	"name": "Phantanizer",
+	"main": "index.html",
+	"window":
+	{
+		"icon": "Editor/Files/Icon.png",
+		"frame": true,
+		"width": 1280,
+		"height": 720,
+		"min_width": 1024,
+		"min_height": 600
+	}
+}
+

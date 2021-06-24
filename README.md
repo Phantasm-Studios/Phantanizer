@@ -2,6 +2,8 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/phantasm-studios/Phantanizer.svg)](https://github.com/Phantasm-Studios/Phantanizer/issues) [![GitHub stars](https://img.shields.io/github/stars/phantasm-studios/Phantanizer.svg)](https://github.com/Phantasm-Studios/Phantanizer/stargazers)
 
+## An extension of nunustudio.org so all the documumentation should be the same
+
 - phantasmStudio is an open source 3D VR game engine for the web it allows designers and web developers to easily develop 3D experiences that can run directly in a web page or be exported as Desktop applications.
 
 - It has a fully featured visual editor, supports a wide range of file formats, the tools are open source and completely free to use for both personal and commercial usage, it is powered by open web APIs like WebGL, WebXR and Web Audio.

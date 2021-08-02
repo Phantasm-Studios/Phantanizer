@@ -1,5 +1,5 @@
 
-
+**Put on pause**
 [![GitHub issues](https://img.shields.io/github/issues/phantasm-studios/Phantanizer.svg)](https://github.com/Phantasm-Studios/Phantanizer/issues) [![GitHub stars](https://img.shields.io/github/stars/phantasm-studios/Phantanizer.svg)](https://github.com/Phantasm-Studios/Phantanizer/stargazers)
 
 ## An extension of nunustudio.org so all the documumentation should be the same
